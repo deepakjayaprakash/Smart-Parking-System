@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>that's my spot.com</title>
+	
+	
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link href="css/style3.css" rel="stylesheet" type="text/css" media="all" />
+	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ <link rel="css/bootstrap.min.css">
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+
+	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+
+
+
+<script src="js/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/move-top.js">
+		</script>
+	
+
+	  <script src="js/bootstrap.min.js"></script>
+
+
+	<script type="text/javascript" src="js/wow.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+		</script>
+
+	<script>
+ new WOW().init();
+</script>
+
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+	
+}
+
+  </style>
+
+</head>
+
+	
+
+<body id="body">
+
+
+	<!--  Header Section  -->
+	<header>
+		<div class="container">
+			<div class="logo pull-left animated wow fadeInLeft">
+				<img src="images/logo.jpg" height="80px"  width="65px" alt="" title="" >
+				<p style="font-style:italic;color:white;font-size:12pt;"                 class="animated wow fadeInLeft" data-wow-delay=".2s">That's my spot</p>
+				
+				
+				 
+			</div>
+
+		
+			<nav class="pull-right">
+				<ul class="list-unstyled">
+
+
+					
+					<li class="animated wow fadeInLeft" data-wow-delay="0s"><a href="index.html">Home</a></li>
+					
+					<li class="animated wow fadeInLeft" data-wow-delay=".2s"><a href="#gallery">Gallery</a></li>
+					<li class="animated wow fadeInLeft" data-wow-delay=".2s"><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+
+			<span class="burger_icon">menu</span>
+		</div>
+	</header>
+	<!--  End Header Section  -->
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="form_bg">
+          <form action ="Sign_in_Customer" method="post">
+Username : 
+<input type="text" name="uname">
+<br>
+<br>
+<br>
+Password : 
+<input type="password" name="pwd">
+<br>
+<br>
+<br>
+<input type="submit" value="Sign In">
+</form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
