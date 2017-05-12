@@ -16,6 +16,6 @@ A very simple coding and design pattern has ben used to autoate the browsing thr
 
 - **Current Booking** : Users can check out the availibilty of empty spots currently and book the spot immedietly.
 
-- ** Future Booking**:  If a user needs an advance booking, he can do so by booking the car/bike from a fixed time to a fixed time.
+- **Future Booking**:  If a user needs an advance booking, he can do so by booking the car/bike from a fixed time to a fixed time.
 
-- ** Fare calculation**: The fare is automatically calculated as per the time booked and per hour charge and is generated at the time of leaving.
+- **Fare calculation**: The fare is automatically calculated as per the time booked and per hour charge and is generated at the time of leaving.
